@@ -1,0 +1,8 @@
+prefix=/home/adrian/Control-Simulations/catkin_ws/devel
+
+Name: inverted_pendulum
+Description: Description of inverted_pendulum
+Version: 0.0.0
+Cflags: -I/home/adrian/Control-Simulations/catkin_ws/src/inverted_pendulum/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -linverted_pendulum
+Requires: roscpp std_msgs
